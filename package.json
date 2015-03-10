@@ -1,0 +1,28 @@
+{
+  "name": "qs-mongodb",
+  "version": "0.1.0",
+  "description": "Parse URL querystring to MongoDB query.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/qs-mongodb"
+  },
+  "keywords": [
+    "querystring",
+    "query",
+    "qs",
+    "url",
+    "mongodb",
+    "mongo"
+  ],
+  "dependencies": {
+    "qs": "~2.3.3"
+  },
+  "devDependencies": {
+    "tape": "*"
+  }
+}
